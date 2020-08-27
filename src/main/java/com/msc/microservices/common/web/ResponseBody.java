@@ -18,7 +18,7 @@ import static com.msc.microservices.common.util.ThreadHolderUtil.TRACE_KEY;
 /**
  * 通用的http响应内容接口
  *
- * @author ty
+ * @author zjl
  */
 public final class ResponseBody<T, M extends EmptyMeta> implements Serializable {
     /**
