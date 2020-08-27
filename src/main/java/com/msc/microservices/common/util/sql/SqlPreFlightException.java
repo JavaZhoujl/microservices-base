@@ -5,14 +5,14 @@ package com.msc.microservices.common.util.sql;
  *
  * @author zjl
  */
-public class EpetSqlPreFlightException extends RuntimeException {
+public class SqlPreFlightException extends RuntimeException {
     static final String BLANK_ERROR = "不能为null或者空";
 
-    EpetSqlPreFlightException(String action, String error) {
+    SqlPreFlightException(String action, String error) {
         super(action + error);
     }
 
-    EpetSqlPreFlightException(String action, String error, Throwable throwable) {
+    SqlPreFlightException(String action, String error, Throwable throwable) {
         super(action + error, throwable);
     }
 }
