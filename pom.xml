@@ -61,4 +61,31 @@
     </dependency>
   </dependencies>
 
+  <!--<pluginRepositories>
+    <pluginRepository>
+      <id>nexus</id>
+      <name>nexus</name>
+      <url>http://47.94.92.190:8081/repository/maven-snapshots/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>-->
+
+  <distributionManagement>
+    <repository>
+      <id>trawe-release</id>
+      <name>trawe-release</name>
+      <url>http://47.94.92.190:8081/repository/maven-releases/</url>
+    </repository>
+
+    <snapshotRepository>
+      <id>trawe-snapshots</id>
+      <name>trawe-snapshots</name>
+      <url>http://47.94.92.190:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
