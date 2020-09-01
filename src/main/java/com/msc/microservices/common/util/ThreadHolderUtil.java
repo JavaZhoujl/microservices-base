@@ -18,29 +18,9 @@ public final class ThreadHolderUtil {
     private static final ThreadLocal<User> USER_HOLDER = new ThreadLocal<>();
 
     /**
-     * 当前请求线程原始payload字符串
-     */
-    @Deprecated
-    public static final String PAYLOAD_KEY = "payload";
-    /**
      * 服务追踪信息名称
      */
     public static final String TRACE_KEY = "trace";
-    /**
-     * 网关消费者id
-     */
-    @Deprecated
-    public static final String CONSUMER_ID_KEY = "consumerId";
-    /**
-     * 网关消费者客户id
-     */
-    @Deprecated
-    public static final String CONSUMER_CUSTOM_ID_KEY = "consumerCustomId";
-    /**
-     * 网关消费者名称
-     */
-    @Deprecated
-    public static final String CONSUMER_USERNAME_KEY = "consumerUsername";
 
     /**
      * 任意类型数据集合
