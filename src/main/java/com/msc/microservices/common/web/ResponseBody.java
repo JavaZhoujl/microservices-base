@@ -32,11 +32,11 @@ public final class ResponseBody<T, M extends EmptyMeta> implements Serializable 
     /**
      * 成功业务状态码
      */
-    public static final String SUCCESS_STATUS_CODE = "200";
+    public static final String SUCCESS_STATUS_CODE = "0";
     /**
      * 失败业务状态码
      */
-    public static String FAIL_STATUS_CODE = "400";
+    public static String FAIL_STATUS_CODE = "1000";
     /**
      * 服务降级状态码
      */
